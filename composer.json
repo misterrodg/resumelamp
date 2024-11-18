@@ -1,8 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "misterrodg/resumelamp",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "An example LAMP stack to display a personal resume.",
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",

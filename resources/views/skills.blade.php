@@ -8,33 +8,33 @@
     <div class="ml-2">
         <h2 class="text-base font-bold">Languages</h2>
         <ul class="mb-2 ml-2 list-inside list-disc">
-            <li><span class="text-lang">C++</span></li>
-            <li><span class="text-lang">C#</span></li>
-            <li><span class="text-lang">CSS</span> (TailwindCSS and Bootstrap)</li>
-            <li><span class="text-lang">Go</span></li>
-            <li><span class="text-lang">JavaScript</span> (Vanilla, React, and ReactTS)</li>
-            <li><span class="text-lang">PHP</span> (Vanilla and Laravel)</li>
-            <li><span class="text-lang">Python</span></li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>CSS (TailwindCSS and Bootstrap)</li>
+            <li>Go</li>
+            <li>JavaScript (Vanilla, React, and ReactTS)</li>
+            <li>PHP (Vanilla and Laravel)</li>
+            <li>Python</li>
         </ul>
         <h2 class="text-base font-bold">Databases</h2>
         <ul class="mb-2 ml-2 list-inside list-disc">
-            <li><span class="text-lang">MySQL</span></li>
-            <li><span class="text-lang">MSSQL</span></li>
+            <li>MySQL</li>
+            <li>MSSQL</li>
         </ul>
         <h2 class="text-base font-bold">Data Formats</h2>
         <ul class="mb-2 ml-2 list-inside list-disc">
-            <li><span class="text-lang">INI</span></li>
-            <li><span class="text-lang">JSON</span></li>
-            <li><span class="text-lang">GeoJSON</span></li>
-            <li><span class="text-lang">TOML</span></li>
-            <li><span class="text-lang">XML</span></li>
-            <li><span class="text-lang">YAML</span></li>
+            <li>INI</li>
+            <li>JSON</li>
+            <li>GeoJSON</li>
+            <li>TOML</li>
+            <li>XML</li>
+            <li>YAML</li>
         </ul>
         <h2 class="text-base font-bold">Tools</h2>
         <ul class="mb-2 ml-2 list-inside list-disc">
-            <li><span class="text-lang">Docker</span></li>
-            <li><span class="text-lang">Git</span></li>
-            <li><span class="text-lang">Vite</span></li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>Vite</li>
         </ul>
     </div>
 </div>

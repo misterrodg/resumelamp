@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ExperienceController;
+use App\Http\Controllers\ResumeController;
 use App\Http\Controllers\SkillController;
 use App\Http\Middleware\HighlightKeywords;
 use Illuminate\Support\Facades\Route;
@@ -18,3 +19,5 @@ Route::middleware([HighlightKeywords::class])->group(function () {
 });
 
 Route::get('/skills', [SkillController::class, 'showSkills']);
+
+Route::get('/pdf', [ResumeController::class, 'buildResume']);

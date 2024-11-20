@@ -18,4 +18,4 @@ Route::middleware([HighlightKeywords::class])->group(function () {
 
 Route::get('/skills', function () {
     return view('skills');
-})->withoutMiddleware([HighlightKeywords::class]);
+});

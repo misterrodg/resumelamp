@@ -26,7 +26,7 @@
         </p>
         <div class="relative space-y-4">
             <img src="{{ asset('images/dc3_greenland.jpg') }}" loading="lazy" alt="DC3 Airplane Parked in Greenland."
-              class="w-48 h-auto float-right ml-4 mb-4 md:w-60 lg:w-72">
+              class="w-48 h-auto float-right mt-2 ml-4 mb-4 md:w-60 lg:w-72">
             <p>
                 Outside of my day job, I have been a pilot for
                 {{ DateHelper::dateToYears('2003-10-03') }},

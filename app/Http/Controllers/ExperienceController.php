@@ -8,7 +8,7 @@ class ExperienceController extends Controller
 {
     public function showExperience()
     {
-        $experiences = Experience::with('summaryPoints')->orderBy('date_from')->get();
+        $experiences = Experience::with('summaryPoints')->orderBy('date_from', 'desc')->get();
 
         return view('history', compact('experiences'));
     }

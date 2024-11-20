@@ -42,13 +42,20 @@ npm install
 
 4. Configure Environment
 
--   Copy the `.env.example` to `.env`.
--   NOTE: This project uses the credentials in the `.env.example` for simplicity, and because this is not a production-ready project.
+```bash
+cp .env.example .env
+```
+
+NOTE: This project uses the credentials in the `.env.example` for simplicity, and because this is not a production-ready project.
 
 5. Start the Development Server
 
 ```bash
 ./vendor/bin/sail up
+```
+
+```bash
+npm run dev
 ```
 
 6. Run Migrations and Seed Database

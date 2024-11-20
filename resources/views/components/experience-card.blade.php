@@ -1,10 +1,13 @@
-<div class="mb-2">
-    <div class="bg-blue-900 p-2">
+<div class="mt-4">
+    <div class="bg-sky-800 p-2">
         <h3>{{ $companyName }}</h3>
-        <h4>{{ $role }} - {{ $dateFrom }} to {{ $dateTo ?? 'Present' }}</h4>
+        <div class="inline-flex items-center space-x-1">
+            <h4 class="text-sky-200">{{ $role }}</h4>
+            <h5 class="text-sky-400">from {{ $dateFrom }} to {{ $dateTo ?? 'Present' }}</h5>
+        </div>
     </div>
-    <div class="bg-slate-200 text-slate-900 p-2">
-        <ul class="mb-2 ml-2 list-inside list-disc">
+    <div class="bg-slate-800 p-2 border border-sky-800">
+        <ul class="ml-2 list-inside list-disc">
             @foreach ($summaryPoints as $point)
             <li>{{ $point->content }}</li>
             @endforeach

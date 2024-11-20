@@ -1,36 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-h1 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: bold;
-}
+    h1 {
+        font-family: "IBM Plex Mono", monospace;
+        color: #38bdf8;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 500;
+    }
 
-h2 {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    border-bottom-width: 1px;
-    border-color: #38bdf8;
-}
+    h2 {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        border-bottom-width: 1px;
+        border-color: #38bdf8;
+    }
 
-h3 {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: bold;
-}
+    h3 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: bold;
+    }
 
-h4 {
-    font-size: 0.75rem;
-    font-style: italic;
-}
+    h4 {
+        font-size: 0.75rem;
+        font-style: italic;
+    }
 
-h5 {
-    font-size: 0.75rem;
-    font-style: italic;
+    h5 {
+        font-size: 0.75rem;
+        font-style: italic;
     }
 }

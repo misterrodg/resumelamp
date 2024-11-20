@@ -9,9 +9,11 @@ use Symfony\Component\HttpFoundation\Response;
 class HighlightKeywords
 {
     protected $keywords = [
+        'AWS',
         'Bootstrap',
         'C++',
         'C#',
+        'CloudFront',
         'CSS',
         'Docker',
         'GeoJSON',
@@ -31,6 +33,7 @@ class HighlightKeywords
         'Python',
         'React',
         'ReactTS',
+        'S3',
         'TailwindCSS',
         'TOML',
         'TypeScript',

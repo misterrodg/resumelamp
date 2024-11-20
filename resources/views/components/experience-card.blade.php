@@ -1,5 +1,5 @@
 <div class="mt-4">
-    <div class="{{ $printView ? " bg-gray-200" : "bg-sky-800" }} p-2">
+    <div class="{{ $printView ? " bg-gray-200" : "bg-sky-800" }} py-1 px-2">
         <h3>{{ $companyName }}</h3>
         <div class="inline-flex items-center space-x-1">
             <h4 class="{{ $printView ? " text-gray-700" : "text-sky-200" }}">{{ $role }}</h4>

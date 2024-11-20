@@ -13,14 +13,16 @@ class ExperienceCard extends Component
     public $dateFrom;
     public $dateTo;
     public $summaryPoints;
+    public $printView;
 
-    public function __construct($companyName, $role, $dateFrom, $dateTo, $summaryPoints)
+    public function __construct($companyName, $role, $dateFrom, $dateTo, $summaryPoints, $printView = false)
     {
         $this->companyName = $companyName;
         $this->role = $role;
         $this->dateFrom = $dateFrom;
         $this->dateTo = $dateTo;
         $this->summaryPoints = $summaryPoints;
+        $this->printView = $printView;
     }
 
     public function render(): View|Closure|string

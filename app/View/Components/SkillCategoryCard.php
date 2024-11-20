@@ -10,11 +10,13 @@ class SkillCategoryCard extends Component
 {
     public $categoryName;
     public $skills;
+    public $printView;
 
-    public function __construct($categoryName, $skills)
+    public function __construct($categoryName, $skills, $printView = false)
     {
         $this->categoryName = $categoryName;
         $this->skills = $skills;
+        $this->printView = $printView;
     }
 
     public function render(): View|Closure|string

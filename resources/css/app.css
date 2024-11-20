@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    border-bottom-width: 1px;
+    border-color: #38bdf8;
+}
+
+h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-style: italic;
+}

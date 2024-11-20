@@ -4,7 +4,7 @@
 
 @section('content')
 <div>
-    <h1 class="text-xl font-bold mb-2 border-b border-sky-400">About</h1>
+    <h2>About</h2>
     <div class="space-y-4">
         <p>
             I'm a Full Stack Developer and Database Administrator with a passion

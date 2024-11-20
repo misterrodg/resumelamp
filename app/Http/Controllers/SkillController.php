@@ -11,6 +11,5 @@ class SkillController extends Controller
         $skillCategories = SkillCategory::with('skills')->get();
 
         return view('skills', compact('skillCategories'));
-        //return response()->json($skillCategories);
     }
 }

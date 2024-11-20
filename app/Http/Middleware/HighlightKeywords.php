@@ -35,6 +35,7 @@ class HighlightKeywords
         'TOML',
         'TypeScript',
         'Vanilla',
+        'VBA',
         'Vite',
         'XML',
         'YAML'

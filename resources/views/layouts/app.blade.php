@@ -13,10 +13,12 @@
 
 <body class="bg-slate-900">
     <header class="bg-slate-800 border-b-4 border-b-sky-400 text-white p-4 mb-4 flex justify-between items-center">
-        <div>
-            <h1>Kyle Rodgers</h1>
-            <h3>Full Stack Developer</h3>
-        </div>
+        <a href="/">
+            <div>
+                <h1>Kyle Rodgers</h1>
+                <h3>Full Stack Developer</h3>
+            </div>
+        </a>
         <nav class="ml-auto text-white">
             <ul class="flex space-x-4">
                 <li><a href="/" class="hover:text-gray-400 @if (request()->is('/')) text-sky-400 @endif">Home</a>

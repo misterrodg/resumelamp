@@ -17,10 +17,5 @@ class DatabaseSeeder extends Seeder
             ExperienceSeeder::class,
             SkillSeeder::class,
         ]);
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
     }
 }
